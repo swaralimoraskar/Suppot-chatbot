@@ -1,14 +1,34 @@
-# Support Chatbot 🤖💬
+<!-- support chatbot project  -->
+This is chatbot for answering "how-to" questions related to CDPs 
 
-This is an AI-powered **Support Chatbot** built using React. It helps users by providing automated responses to their queries.
+<!-- features  -->
+AI powered responses using Mistral  AI API
+Handles customer queries
+Backend with Express.js and Axios
+Esy deployment and easy architecture
 
-## 🚀 Features
-- Instant responses to user queries.
-- AI-powered chatbot with predefined answers.
-- Easy to integrate into any website.
-- Responsive and user-friendly UI.
+<!-- tech stack -->
+<!-- frontend -->
+React.js => vite
+Bootstrap 5
+Axios
 
-## 📦 Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/support-chatbot.git
+<!-- backend -->
+Node.js
+Express.js
+Mistral AI API
+CORS and Dotenv
+
+<!-- how to run the project -->
+<!-- backend -->
+In .env file inside backend/ folder :
+add your mitral api key 
+and start the backend server by :
+node server.js
+
+<!-- frontend setup -->
+cd ../frontend
+npm install
+
+<!--start frontend -->
+npm run dev
